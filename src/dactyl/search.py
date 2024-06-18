@@ -64,6 +64,7 @@ def concat_noun_phrase_text(txt:List[Tuple[str,str]]) -> str:
 
     return " ".join(np), True
 
+
 def nounphrase_text(node) -> Tuple[str,bool]:
     """ Depth first search recovers child node and parent label. """
     txt = []
