@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "dactyl"
-version = "0.1.0"
+version = "0.1.2"
 description = "Sentence algorithms for Stanza"
 authors = ["tbonza <tylers.pile@gmail.com>"]
 license = "MIT"

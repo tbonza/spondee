@@ -8,4 +8,9 @@ class Sentence(BaseModel):
     subject_text: List[str] = Field(default=[])
     predicate: List[str] = Field(default=[])
     predicate_text: List[str] = Field(default=[])
-    
+
+class Numeric(BaseModel):
+    sidx: int = Field("Simple sentence index position.")
+    text: str = Field("Numeric value")
+    start_char: int
+    end_char: int
