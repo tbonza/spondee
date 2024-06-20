@@ -1,6 +1,6 @@
 from collections import deque
 
-from dactyl.schemas import Numeric
+from spondee.schemas import Numeric
 
 def extract_numbers(text:str, nlp_model):
     """ Segment text into sentences and extract numeric values. """

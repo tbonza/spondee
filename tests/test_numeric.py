@@ -1,5 +1,5 @@
 
-from dactyl.numeric import extract_numbers
+from spondee.numeric import extract_numbers
 
 
 import pytest

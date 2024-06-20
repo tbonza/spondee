@@ -1,6 +1,6 @@
 from collections import deque
 
-from dactyl.search import (
+from spondee.search import (
     identify_statements,
     extract_noun_phrases,
     search_text,

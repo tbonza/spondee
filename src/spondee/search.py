@@ -8,7 +8,7 @@ from typing import List, Tuple
 
 import stanza
 
-from dactyl.schemas import Sentence
+from spondee.schemas import Sentence
 
 def nlp_pipeline():
     nlp = stanza.Pipeline(lang='en', processors='tokenize,pos,constituency')
